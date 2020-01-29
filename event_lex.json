@@ -1,0 +1,24 @@
+{
+    "messageVersion": "1.0",
+    "invocationSource": "FulfillmentCodeHook",
+    "userId": "ABCD1234",
+    "sessionAttributes": { 
+       "key1": "value1",
+       "key2": "value2"
+    },
+    "bot": {
+      "name": "my-bot",
+      "alias": "prod",
+      "version": "1"
+    },
+    "outputDialogMode": "Text",
+    "currentIntent": {
+      "name": "my-intent",
+      "slots": {
+        "slot-name1": "value",
+        "slot-name2": "value",
+        "slot-name3": "value"
+      },
+      "confirmationStatus": "Confirmed"
+    }
+  }
